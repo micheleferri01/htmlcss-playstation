@@ -38,7 +38,7 @@ img{
     background-position: center;
 }
 
-.returnal-banner{
+.returnal-banner, .logo-banner{
     max-height: 50px;
 }
 
@@ -99,6 +99,7 @@ img{
 
 .it-takes-two{
     width: 60%;
+    display: block;
 }
 
 /* new games section */
@@ -108,4 +109,16 @@ img{
 
 .new-games-paragraph{
     font-size: 26px;
+}
+
+/* playstation plus section */
+
+.ps-plus-section{
+    background-color: #bebcbb;
+    min-height: 200px;
+}
+
+.btn-custom{
+    background-color: #d9dadc;
+    color: #3a6de5;
 }

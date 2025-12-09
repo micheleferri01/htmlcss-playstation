@@ -55,3 +55,26 @@ img{
 .carousel-jumbo:hover, .carousel-jumbo.active{
     border: 4px solid #0776cf;
 }
+
+/* ps5 section */
+
+.big-title{
+    font-size: 45px;
+}
+
+.text-blue{
+    color: #2b8ad6;
+    font-size: 14px;
+}
+
+.ps-last-model{
+    margin-top: 100px;
+}
+
+.muted-paragraph{
+    font-size: 20px;
+}
+
+.top-space{
+    margin-top: 50px;
+}

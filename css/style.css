@@ -13,6 +13,18 @@ img{
     max-width: 100%;
 }
 
+/* utils */
+
+.big-title{
+    font-size: 45px;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+
+
 /* header */
 .sony-logo{
     max-width: 100px;
@@ -50,10 +62,6 @@ img{
 }
 
 /* ps5 section */
-
-.big-title{
-    font-size: 45px;
-}
 
 .text-blue{
     color: #2b8ad6;
@@ -93,6 +101,12 @@ img{
     width: 60%;
 }
 
-.paragraph{
-    font-size: 20px;
+
+/* new games section */
+.nuove-uscite{
+    font-size: 30px;
+}
+
+.new-games-paragraph{
+    font-size: 26px;
 }

@@ -78,3 +78,12 @@ img{
 .top-space{
     margin-top: 50px;
 }
+
+.ps-thumbnail{
+    opacity: 0.4;
+}
+
+.ps-thumbnail:hover, .ps-thumbnail.active{
+    border-bottom: 2px solid #2b8ad6;
+    opacity: 1;
+}

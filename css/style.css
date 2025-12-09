@@ -18,7 +18,7 @@ img{
     max-width: 100px;
 }
 
-/* jumbo returnal */
+/* jumbo game returnal */
 .jumbo{
     min-height: 675px;
     background-image: url('../img/jumbo-bg.png');
@@ -34,13 +34,6 @@ img{
     background-color: #cd3d0f;
     text-decoration: none;
     color: white;
-}
-
-.d{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 30px;
 }
 
 .width{
@@ -86,4 +79,20 @@ img{
 .ps-thumbnail:hover, .ps-thumbnail.active{
     border-bottom: 2px solid #2b8ad6;
     opacity: 1;
+}
+
+/* banner game it takes two */
+.banner{
+    min-height: 675px;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.it-takes-two{
+    width: 60%;
+}
+
+.paragraph{
+    font-size: 20px;
 }

@@ -116,10 +116,10 @@ img {
 
 .ps-plus-section,
 .ps-now-section {
-    min-height: 300px;
+    min-height: 40vh;
 }
 
-.ps-plus-section {
+.ps-plus-section-bg {
     background-color: #bebcbb;
 }
 

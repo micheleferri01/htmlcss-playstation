@@ -44,6 +44,17 @@ img {
     max-width: 100px;
 }
 
+/* navbar */
+.dropdown-toggle-custom::after{
+    display: inline-block;
+    content: url('../img/chevron-down-solid.svg');
+    width: 10px;
+}
+
+.dropdown-toggle-custom:hover::after{
+    content: url('../img/chevron-down-solid-hover.svg');
+}
+
 /* jumbo game returnal */
 
 #returnal-jumbotron {
@@ -180,9 +191,6 @@ img {
 /* *************** MEDIA QUERY************** */
 
 @media  screen and (min-width:576px) {
-    .socials{
-    }
-    
     .social-icon{
         width: calc(100% / 4 - 30px * 3 /4);
     }

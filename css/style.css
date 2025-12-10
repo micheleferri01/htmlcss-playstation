@@ -39,7 +39,7 @@ img{
 }
 
 .returnal-banner, .logo-banner{
-    max-height: 50px;
+    max-height: 70px;
 }
 
 .acquista-ora-btn{
@@ -113,12 +113,21 @@ img{
 
 /* playstation plus section */
 
+.ps-plus-section,.ps-now-section{
+    min-height: 300px;
+}
+
 .ps-plus-section{
     background-color: #bebcbb;
-    min-height: 200px;
 }
 
 .btn-custom{
     background-color: #d9dadc;
     color: #3a6de5;
 }
+
+/* playstation now section */
+.ps-now-section{
+    background-color: #161c3b;
+}
+

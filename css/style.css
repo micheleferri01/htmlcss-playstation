@@ -133,6 +133,21 @@ img {
     background-color: #161c3b;
 }
 
+/* socials section */
+.socials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 0;
+    
+}
+
+.social-icon{
+    width: calc(100% / 2 - 30px / 2);
+}
+
 /* footer */
 
 #page-footer{
@@ -161,7 +176,18 @@ img {
     max-width: 135px;
 }
 
+
 /* *************** MEDIA QUERY************** */
+
+@media  screen and (min-width:576px) {
+    .socials{
+    }
+    
+    .social-icon{
+        width: calc(100% / 4 - 30px * 3 /4);
+    }
+    
+}
 
 @media screen and (min-width:992px){
     .jumbo-content-alignment{

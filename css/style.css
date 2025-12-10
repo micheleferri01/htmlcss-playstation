@@ -59,7 +59,6 @@ img {
 
 
 .carousel-jumbo {
-    width: calc(100% / 2 - 1.5rem / 2);
     padding: 3px;
 }
 
@@ -156,4 +155,12 @@ img {
 .footer-link{
     text-decoration: none;
     color: white;
+}
+
+/* *************** MEDIA QUERY************** */
+
+@media screen and (min-width:992px){
+    .jumbo-content-alignment{
+        width: calc(100% / 3);
+    }
 }

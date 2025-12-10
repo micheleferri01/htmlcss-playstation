@@ -52,7 +52,7 @@ img {
     background-position: center;
 }
 
-.test{
+.jumbo-content-alignment{
     justify-content: flex-end;
     gap: 30px;
 }
@@ -132,4 +132,28 @@ img {
 /* playstation now section */
 .ps-now-section {
     background-color: #161c3b;
+}
+
+/* footer */
+
+#page-footer{
+    background-color: #00439c;
+    min-height: 70vh;
+}
+
+.ps-logo-footer{
+    width: 100px;
+}
+
+.l-globe{
+    width: 20px;
+}
+
+.footer-link-list{
+    list-style-type: none;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
 }

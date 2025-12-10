@@ -1,133 +1,135 @@
 /* reset */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 /* utils */
 
-.big-title{
+.big-title {
     font-size: 45px;
 }
 
-.paragraph{
+.paragraph {
     font-size: 20px;
 }
 
-
-
-/* header */
-.sony-logo{
-    max-width: 100px;
+.jumbo {
+    min-height: 75vh;
 }
 
-/* jumbo game returnal */
-.jumbo{
-    min-height: 675px;
-    background-image: url('../img/jumbo-bg.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.returnal-banner, .logo-banner{
-    max-height: 70px;
-}
-
-.acquista-ora-btn{
+.acquista-ora-btn {
     background-color: #cd3d0f;
     text-decoration: none;
     color: white;
 }
 
-.width{
-    width: 90%;
+.banner {
+    width: 60%;
 }
 
-.carousel-jumbo{
+/* **********SECTIONS********* */
+
+/* header */
+.sony-logo {
+    max-width: 100px;
+}
+
+/* jumbo game returnal */
+
+#returnal-jumbotron {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.test{
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+
+.carousel-jumbo {
     width: calc(100% / 2 - 1.5rem / 2);
     padding: 3px;
 }
 
-.carousel-jumbo:hover, .carousel-jumbo.active{
+.carousel-jumbo:hover,
+.carousel-jumbo.active {
     border: 4px solid #0776cf;
 }
 
 /* ps5 section */
 
-.text-blue{
+.text-blue {
     color: #2b8ad6;
     font-size: 14px;
 }
 
-.ps-last-model{
+.ps-last-model {
     margin-top: 100px;
 }
 
-.muted-paragraph{
+.muted-paragraph {
     font-size: 20px;
 }
 
-.top-space{
+.top-space {
     margin-top: 50px;
 }
 
-.ps-thumbnail{
+.ps-thumbnail {
     opacity: 0.4;
 }
 
-.ps-thumbnail:hover, .ps-thumbnail.active{
+.ps-thumbnail:hover,
+.ps-thumbnail.active {
     border-bottom: 2px solid #2b8ad6;
     opacity: 1;
 }
 
 /* banner game it takes two */
-.banner{
-    min-height: 675px;
+#it-takes-two-jumbotron {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.it-takes-two{
-    width: 60%;
-    display: block;
-}
-
 /* new games section */
-.nuove-uscite{
+.nuove-uscite {
     font-size: 30px;
 }
 
-.new-games-paragraph{
+.new-games-paragraph {
     font-size: 26px;
 }
 
 /* playstation plus section */
 
-.ps-plus-section,.ps-now-section{
+.ps-plus-section,
+.ps-now-section {
     min-height: 300px;
 }
 
-.ps-plus-section{
+.ps-plus-section {
     background-color: #bebcbb;
 }
 
-.btn-custom{
+.btn-custom {
     background-color: #d9dadc;
     color: #3a6de5;
 }
 
 /* playstation now section */
-.ps-now-section{
+.ps-now-section {
     background-color: #161c3b;
 }
-

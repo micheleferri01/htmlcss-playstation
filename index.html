@@ -23,7 +23,7 @@
 
 <body>
     <!-- sony logo and navbar -->
-    <header class="sticky-top">
+    <header class="sticky-top" id="page-header">
         <div class="sony-logo-bar bg-black text-end p-2">
             <img src="./img/sony_logo.svg" alt="sony-logo" class="sony-logo">
         </div>
@@ -121,9 +121,13 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+                                <a href="#" role="button" class="btn bg-black text-white rounded-pill">Accedi</a>
+                            </li>
+                            <li>
+                                <button class="btn"><i class="bi bi-search"></i></button>
+                            </li>
                         </ul>
-                        <a href="#" role="button" class="btn bg-black text-white rounded-pill">Accedi</a>
-                        <button class="btn"><i class="bi bi-search"></i></button>
                     </div>
                 </div>
             </div>
@@ -133,20 +137,19 @@
     <!-- main content -->
     <main>
         <!-- jumbo section -->
-        <div class="jumbo d-flex align-items-end py-4">
-            <div class="container d-flex flex-column gap-4">
-                <div>
-                    <img src="./img/returnal-hero-banner-logo.png" alt="returnal-hero-banner-logo"
-                        class="returnal-banner">
+        <div class="py-5" id="returnal-jumbotron">
+            <div class="container d-flex flex-column test jumbo">
+                <div class="banner">
+                    <img src="./img/returnal-hero-banner-logo.png" alt="returnal-hero-banner-logo">
                 </div>
-                <section class="text-white width">
-                    <h1>Rompi il cerchio</h1>
-                    <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo
+                <section class="text-white">
+                    <h1 class="big-title">Rompi il cerchio</h1>
+                    <p class="mt-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo
                         esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                    <div class="mt-3">
+                        <a href="#" role="button" class="btn btn-danger rounded-pill acquista-ora-btn">Acquista ora</a>
+                    </div>
                 </section>
-                <div>
-                    <a href="#" role="button" class="btn btn-danger rounded-pill acquista-ora-btn">Acquista ora</a>
-                </div>
             </div>
         </div>
 
@@ -183,8 +186,8 @@
         </div>
 
         <!-- ps5 section -->
-        <div class="container row">
-            <section class="col-12 top-space">
+        <div class="container d-flex flex-column">
+            <section class="top-space">
                 <h2 class="big-title">Console PlayStation 5</h2>
                 <p class="my-4 text-secondary muted-paragraph">Sperimenta la nuova generazione di incredibili giochi
                     PlayStation.</p>
@@ -193,39 +196,39 @@
             </section>
 
             <!-- ps5 carousel -->
-            <div class="col-12">
+            <div class="">
                 <img src="./img/playstation-5-thumb.png" alt="PS5">
             </div>
-            <figure class="col-4 ps-thumbnail active">
+        </div>
+        <div class="row row-cols-3">
+            <figure class="ps-thumbnail active">
                 <img src="./img/playstation-5-thumb.png" alt="PS5">
                 <figcaption class="text-center d-none">Console PS5</figcaption>
             </figure>
-            <figure class="col-4 ps-thumbnail">
+            <figure class="ps-thumbnail">
                 <img src="./img/joypad-thumb.png" alt="joypad-ps5">
                 <figcaption class="text-center d-none">Controller wireless DualSense&trade;</figcaption>
             </figure>
-            <figure class="col-4 ps-thumbnail">
+            <figure class="ps-thumbnail">
                 <img src="./img/headset-thumb.png" alt="headset-ps5">
                 <figcaption class="text-center d-none">Cuffie wireless con microfono PULSE 3&trade;</figcaption>
             </figure>
-            <figure class="col-4 ps-thumbnail">
+            <figure class="ps-thumbnail">
                 <img src="./img/remote-thumb.png" alt="remote-for-ps5">
                 <figcaption class="text-center d-none">Telecomando Media</figcaption>
             </figure>
-            <figure class="col-4 ps-thumbnail">
+            <figure class="ps-thumbnail">
                 <img src="./img/camera-thumb.jpg" alt="camera-for-ps5">
                 <figcaption class="text-center d-none">Telecamera HD</figcaption>
             </figure>
         </div>
 
         <!-- it takes two banner section -->
-        <div class="banner d-flex flex-column justify-content-between py-5">
-            <div class="container">
-                <div class="it-takes-two">
+        <div class="py-5" id="it-takes-two-jumbotron">
+            <div class="container jumbo d-flex flex-column test">
+                <div class="banner">
                     <img src="./img/it-takes-two-logo.png" alt="it-takes-two-logo">
                 </div>
-            </div>
-            <div class="container">
                 <section class="text-white">
                     <h1 class="big-title">Un'avventura cooperativa selvaggia ti attende</h1>
                     <p class="my-4 paragraph">Trova un amico e partite insieme per l'avventura più folle delle vostre
@@ -355,7 +358,7 @@
                 <div class="row">
                     <div class="col align-self-center">
                         <div class="mt-4">
-                            <img src="./img/ps-plus-logo.png" alt="ps-plus-logo" class="logo-banner">
+                            <img src="./img/ps-plus-logo.png" alt="ps-plus-logo" class="banner">
                         </div>
                         <div>
                             <p class="my-3">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore
@@ -378,7 +381,7 @@
                 <p class="fs-3 text-secondary mt-4">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e
                     PS VR, tutti in un unico posto.</p>
             </section>
-            
+
             <div class="row row-cols-1 g-5">
                 <div class="col">
                     <img src="./img/playstation-store-games-under-20-spotlight.jpg" alt="Giochi-a-meno">
@@ -391,22 +394,23 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- playstation now section -->
         <div class="ps-now-section my-5">
             <section class="container">
                 <div class="row">
                     <div class="col align-self-center">
                         <div class="mt-4">
-                            <img src="./img/ps-now-logo-two-column.png" alt="ps-now-logo" class="logo-banner">
+                            <img src="./img/ps-now-logo-two-column.png" alt="ps-now-logo" class="banner">
                         </div>
                         <div>
-                            <p class="my-3 text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3, e PS2 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                            <p class="my-3 text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre
+                                800 giochi per PS4, PS3, e PS2 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
                             <a role="button" href="#" class="btn btn-light rounded-pill mb-4">Esplora PlayStation
                                 Now</a>
                         </div>
                     </div>
-        
+
                     <div class="col d-none d-md-block">
                         <img src="./img/ps-now-april-featured-image-block.png" alt="ps-plus-banner">
                     </div>
@@ -416,20 +420,20 @@
 
         <!-- socials section -->
         <div class="container">
-            <section>
-                <h2></h2>
-                <div class="row">
+            <section class="text-center">
+                <h2 class="fs-1">Seguici sui social media</h2>
+                <div class="row row-cols-2 my-5 gy-4 gx-3">
                     <div class="col">
-                        <img src="" alt="">
+                        <img src="./img/twitter.jpg" alt="twitter">
                     </div>
                     <div class="col">
-                        <img src="" alt="">
+                        <img src="./img/facebook.jpg" alt="facebook">
                     </div>
                     <div class="col">
-                        <img src="" alt="">
+                        <img src="./img/instagram.jpg" alt="instangram">
                     </div>
                     <div class="col">
-                        <img src="" alt="">
+                        <img src="./img/youtube.png" alt="youtube">
                     </div>
                 </div>
             </section>
@@ -439,7 +443,7 @@
     </main>
 
     <!-- footer and links -->
-    <footer></footer>
+    <footer id="page-footer"></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
